@@ -31,12 +31,9 @@ void insert_sort(vector<int> &A)
             swap(A[i - 1], A[i]);
             i -= 1;
         }
-        print_vector(A); // DEBUG_PRINT
+        print_vector(A);
     }
-
-
 }
-
 
 int main()
 {

@@ -27,9 +27,7 @@ void choice_sort(vector<int> &A)
         for (int i = pos + 1; i < N; i++)
             if (A[i] < A[pos])
                 swap(A[i], A[pos]);
-
 }
-
 
 int main()
 {
